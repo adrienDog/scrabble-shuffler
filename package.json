@@ -1,6 +1,6 @@
 {
   "name": "scrabble-letters",
-  "homepage": "https://adrienDog.github.io/scrabble-shuffler",
+  "homepage": "https://adriendog.github.io/scrabble-shuffler",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
