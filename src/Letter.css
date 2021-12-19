@@ -1,0 +1,24 @@
+.Letter {
+  text-align: center;
+  border: 1px solid grey;
+  border-radius: 2px;
+  width: 56px;
+  height: 50px;
+  position: relative;
+  background-color: rgb(255, 243, 211);
+}
+
+.Letter-character {
+  font-size: 2em;
+  font-weight: 500;
+  margin: auto;
+}
+
+.Letter-points {
+  color: red;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 2px
+}
