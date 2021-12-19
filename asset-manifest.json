@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/scrabble-shuffler/static/css/main.a8a3a6d8.css",
+    "main.js": "/scrabble-shuffler/static/js/main.c07dd909.js",
+    "static/js/787.ce996ad9.chunk.js": "/scrabble-shuffler/static/js/787.ce996ad9.chunk.js",
+    "index.html": "/scrabble-shuffler/index.html",
+    "main.a8a3a6d8.css.map": "/scrabble-shuffler/static/css/main.a8a3a6d8.css.map",
+    "main.c07dd909.js.map": "/scrabble-shuffler/static/js/main.c07dd909.js.map",
+    "787.ce996ad9.chunk.js.map": "/scrabble-shuffler/static/js/787.ce996ad9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8a3a6d8.css",
+    "static/js/main.c07dd909.js"
+  ]
+}
