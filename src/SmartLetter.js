@@ -1,6 +1,3 @@
-import React from 'react';
-import { useState } from 'react';
-
 import Letter from './Letter';
 
 const points = {
@@ -33,13 +30,11 @@ const points = {
 }
 
 function SmartLetter({character}) {
-  const [ value, setValue ] = useState(character)
-
   return (
-    <div onDoubleClick={() => setValue('z')}>
+    <div>
       <Letter
-        character={value}
-        points={points[value.toLowerCase()]}
+        character={character}
+        points={points[character.toLowerCase()]}
       />
     </div>
   );

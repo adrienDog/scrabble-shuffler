@@ -33,16 +33,16 @@ export const Card = ({ id, text, index, moveCard }) => {
             const hoverMiddleX = (hoverBoundingRect.left - hoverBoundingRect.right) / 2;
             // Determine mouse position
             const clientOffset = monitor.getClientOffset();
-            // Get pixels to the top
+            // Get pixels to the right
             const hoverClientX = clientOffset.x - hoverBoundingRect.right;
-            // Only perform the move when the mouse has crossed half of the items height
-            // When dragging downwards, only move when the cursor is below 50%
-            // When dragging upwards, only move when the cursor is above 50%
-            // Dragging downwards
+            // Only perform the move when the mouse has crossed half of the items width
+            // When dragging left, only move when the cursor is below 50%
+            // When dragging right, only move when the cursor is above 50%
+            // Dragging left
             if (dragIndex < hoverIndex && hoverClientX < hoverMiddleX) {
                 return;
             }
-            // Dragging upwards
+            // Dragging right
             if (dragIndex > hoverIndex && hoverClientX > hoverMiddleX) {
                 return;
             }

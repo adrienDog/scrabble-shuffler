@@ -3,7 +3,7 @@ import { Card } from './Card';
 import update from 'immutability-helper';
 
 const SetOfLetters = ({letters}) => {
-    // {
+    {
       const arrayOfLetters = letters
         .split('')
         .map((text, index) => ({text, id: index + 1}));
@@ -27,7 +27,7 @@ const SetOfLetters = ({letters}) => {
           {cards.map((card, i) => renderCard(card, i))}
         </div>
       </>);
-    // }
+    }
 };
 
 export default SetOfLetters;
