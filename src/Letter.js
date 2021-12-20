@@ -3,7 +3,7 @@ import "./Letter.css";
 
 function Letter({character, points}) {
   return (
-    <div className="Letter">
+    <div className="Letter unselectable">
       <p className="Letter-character">
         {character.toUpperCase()}
       </p>

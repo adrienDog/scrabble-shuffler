@@ -1,6 +1,6 @@
 import { DndProvider } from 'react-dnd'
-import { HTML5Backend as Backend } from 'react-dnd-html5-backend'
-// import { TouchBackend as Backend } from 'react-dnd-touch-backend'
+// import { HTML5Backend as Backend } from 'react-dnd-html5-backend'
+import { TouchBackend as Backend } from 'react-dnd-touch-backend'
 
 import './App.css';
 import Container from './Container';

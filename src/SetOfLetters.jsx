@@ -2,6 +2,12 @@ import { useState, useCallback } from 'react';
 import { Card } from './Card';
 import update from 'immutability-helper';
 
+const style = {
+  display: 'grid',
+  gridTemplateColumns: 'repeat(7, 1fr)',
+  width: '100%',
+};
+
 const SetOfLetters = ({letters}) => {
     {
       const arrayOfLetters = letters
@@ -23,7 +29,7 @@ const SetOfLetters = ({letters}) => {
       };
       
       return (<>
-        <div>
+        <div style={style}>
           {cards.map((card, i) => renderCard(card, i))}
         </div>
       </>);
