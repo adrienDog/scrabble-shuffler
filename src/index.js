@@ -4,9 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const isTouchDevice = () => {
+  return (('ontouchstart' in window) ||
+    (navigator.maxTouchPoints > 0) ||
+    (navigator.msMaxTouchPoints > 0));
+}
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App isTouch={isTouchDevice()}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
