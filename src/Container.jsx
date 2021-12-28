@@ -62,9 +62,10 @@ const Container = ({appName}) => {
           text={currentWord} 
           onChange={(newWord) => setLetters(newWord)}/>}
     </div>
-    {!isEditMode && (<div style={{marginTop: '40px'}}>
+    {!isEditMode && (
+      <div className='App-footer' style={{marginTop: '40px'}}>
       <SavedWords words={Array.from(savedWords)}/>
-    </div>)}
+      </div>)}
   </>);
 };
 

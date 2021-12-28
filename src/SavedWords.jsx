@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import './SavedWords.css';
 
 const wordStyle = {
   'padding': '4px 6px',
@@ -14,20 +15,20 @@ const SavedWords = ({words}) => {
 
   return (<div>
     <div style={{'marginBottom': '10px'}}>
-      <h3 style={{
-          'color': show ? '#333' : '#999',
+      <h4 style={{
+          'color': show ? '#333' : '#aaa',
           'margin': '0',
           'display': 'inline-block',
         }}>
         Saved words
           <button style={{
-              'float': 'right',
-              'marginLeft': '10px',
-            }}
+            'float': 'right',
+            'marginLeft': '0.4em',
+          }}
             onClick={() => setShow(!show)}>
-            {show ? 'Hide' : 'Show'}
+            {show ? 'hide' : 'show'}
           </button>
-      </h3>
+      </h4>
     </div>
     {show && (<div>
       { words.length > 0 ?
