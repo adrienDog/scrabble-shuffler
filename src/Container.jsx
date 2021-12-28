@@ -37,7 +37,7 @@ const Container = ({appName}) => {
       <div className="App-header-left">
         <button style={{float: 'left'}} className="btn"
           onClick={isEditMode ? saveNewLetters : toggleEditMode}>
-          { isEditMode ? 'save' : 'change letters'}
+          { isEditMode ? 'save' : 'new letters'}
         </button>
       </div>
       <div className="App-header-middle">
@@ -51,7 +51,7 @@ const Container = ({appName}) => {
       </div>
       
     </header>
-    <div style={{marginTop: '20px'}}>
+    <div style={{marginTop: '30px'}}>
       {!isEditMode &&
         <SetOfLetters 
           letters={currentWord} 
@@ -62,7 +62,7 @@ const Container = ({appName}) => {
           text={currentWord} 
           onChange={(newWord) => setLetters(newWord)}/>}
     </div>
-    {!isEditMode && (<div style={{marginTop: '20px'}}>
+    {!isEditMode && (<div style={{marginTop: '40px'}}>
       <SavedWords words={Array.from(savedWords)}/>
     </div>)}
   </>);
