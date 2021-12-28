@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/scrabble-shuffler/static/css/main.c93615f3.css",
-    "main.js": "/scrabble-shuffler/static/js/main.85b23554.js",
+    "main.css": "/scrabble-shuffler/static/css/main.8340e15d.css",
+    "main.js": "/scrabble-shuffler/static/js/main.fe375009.js",
     "static/js/787.ce996ad9.chunk.js": "/scrabble-shuffler/static/js/787.ce996ad9.chunk.js",
     "index.html": "/scrabble-shuffler/index.html",
-    "main.c93615f3.css.map": "/scrabble-shuffler/static/css/main.c93615f3.css.map",
-    "main.85b23554.js.map": "/scrabble-shuffler/static/js/main.85b23554.js.map",
+    "main.8340e15d.css.map": "/scrabble-shuffler/static/css/main.8340e15d.css.map",
+    "main.fe375009.js.map": "/scrabble-shuffler/static/js/main.fe375009.js.map",
     "787.ce996ad9.chunk.js.map": "/scrabble-shuffler/static/js/787.ce996ad9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c93615f3.css",
-    "static/js/main.85b23554.js"
+    "static/css/main.8340e15d.css",
+    "static/js/main.fe375009.js"
   ]
 }
